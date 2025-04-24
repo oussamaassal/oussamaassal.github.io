@@ -59,7 +59,7 @@
   </div>
 
   <p>A procedurally generated dungeon crawler with scalable multiplayer systems, intelligent AI, and network-synced environments. Built using Unity and Netcode for GameObjects.</p>
-  <p>🔗 <a href="https://github.com/yourusername/sprout-spell" target="_blank">View on GitHub</a></p>
+  <p>🔗 <a href="https://gitlab.com/DoomHEADSHOT/sproutfps" target="_blank">View on Gitlab</a></p>
 
   <h4>🔹 Procedural Room Generation</h4>
   <p>Rooms are generated with just the X and Z axis using <code>Graphics.DrawMeshInstanced</code>. A decorations grid system populates each room with assets that feel naturally placed without looking random.</p>
@@ -107,7 +107,7 @@
   </div>
 
   <p>A sci-fi survival game featuring Souls-like combat mechanics, advanced AI behavior, and seamless multiplayer integration — all developed in Unity.</p>
-  <p>🔗 <a href="https://github.com/yourusername/space-engineer" target="_blank">View on GitHub</a></p>
+  <p>🔗 <a href="https://gitlab.com/DoomHEADSHOT/spaceengineer" target="_blank">View on Gitlab</a></p>
 
   <h4>🔹 Player Movement & Combat</h4>
   <p>Implemented a Souls-like system with rolling, dodging, jumping, light/heavy attacks, and fluid combo transitions.</p>
@@ -154,7 +154,7 @@
   </div>
 
   <p>Physics-based VR climbing game using OpenXR. Smash falling obstacles with a hammer, only if you swing it hard enough!</p>
-  <p>🔗 <a href="https://github.com/yourusername/vr-climber" target="_blank">View on GitHub</a></p>
+  <p>🔗 <a href="https://gitlab.com/DoomHEADSHOT/vr_climb" target="_blank">View on Gitlab</a></p>
 
   <h4>🔹 Climbing Mechanic</h4>
   <p>Grab specific objects using VR controllers and pull yourself up to climb realistically.</p>
