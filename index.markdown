@@ -105,6 +105,7 @@
     <img src="/assets/images/Maya.png" alt="Maya" title="Maya" width="100" height="100" />
     <img src="/assets/images/audacity.png" alt="Audacity" title="Audacity" width="400" height="100" />
     <img src="/assets/images/krita.png" alt="krita" title="krita" width="290" height="100" />
+    <img src="/assets/images/strapi.png" alt="strapi" title="strapi" width="456" height="110" />
   </div>
 
   <p>A sci-fi survival game featuring Souls-like combat mechanics, advanced AI behavior, and seamless multiplayer integration — all developed in Unity.</p>
