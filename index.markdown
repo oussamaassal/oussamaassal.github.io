@@ -43,6 +43,7 @@
   <button class="tab-button active" onclick="showTab('sprout')">Sprout & Spell</button>
   <button class="tab-button" onclick="showTab('space')">Space Engineer</button>
   <button class="tab-button" onclick="showTab('vr')">VR Climb</button>
+  <button class="tab-button" onclick="showTab('arduino')">Arduino Memory Game</button>
 </div>
 
 <div id="sprout" class="tab-content">
@@ -170,6 +171,33 @@
 
   <h4>🔹 Environment Setup</h4>
   <p>Designed and optimized the 3D environment layout for immersive VR exploration.</p>
+</div>
+
+<div id="arduino" class="tab-content">
+  <h3>🧠 Arduino-Based Memory Game</h3>
+
+  <h4>🛠 Tools Used</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 1rem;">
+    <img src="/assets/images/arduino.png" alt="Arduino" title="Arduino" width="144" height="88" />
+    <img src="/assets/images/Qt.png" alt="Qt" title="Qt" width="174" height="174" />
+    <img src="/assets/images/mySQL.png" alt="MySQL" title="MySQL" width="180" height="150" />
+    <img src="/assets/images/C++.png" alt="C++" title="C++" width="180" height="180" />
+    <img src="/assets/images/C.png" alt="C" title="C" width="180" height="180" />
+  </div>
+
+  <p>A mini memory game inspired by the sequence test on HumanBenchmark.com. Built using Arduino and Qt for touchscreen and database interaction.</p>
+  <p>🔗 <a href="https://github.com/yourusername/arduino-memory-game" target="_blank">View on GitHub</a></p>
+
+  <h4>🔹 Dynamic Memory Management</h4>
+  <p>Allocated and deallocated memory dynamically during each game session to support varying levels of gameplay difficulty.</p>
+
+  <h4>🔹 Scoring System & Database</h4>
+  <p>Implemented a scoring system and connected it to a MySQL database via Qt to persist player scores.</p>
+
+  <h4>🔹 LCD Touchscreen Calibration</h4>
+  <p>Calibrated an LCD touchscreen to detect input accurately for responsive gameplay experience.</p>
+
+  <video controls width="500" src="/assets/videos/memoryGame.mp4">Your browser does not support the video tag.</video>
 </div>
 
 <script>
