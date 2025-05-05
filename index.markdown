@@ -382,7 +382,7 @@
   </code></pre>
   </div>
     <div class="feature-preview">
-      <img src="/assets/images/whack-a-monkey.gif" alt="Whack-a-Mole Minigame Preview" />
+      <img src="/assets/images/Whack-a-monkey.gif" alt="Whack-a-Mole Minigame Preview" />
     </div>
   </div>
   <div class="feature-container">
@@ -403,7 +403,7 @@
       </code></pre>
     </div>
     <div class="feature-preview">
-      <img src="/assets/images/split_screen.gif" alt="Split Screen Preview" />
+      <img src="/assets/images/Split_screen.gif" alt="Split Screen Preview" />
     </div>
   </div>
 
