@@ -233,7 +233,8 @@
   <h4>🔹 LCD Touchscreen Calibration</h4>
   <p>Calibrated an LCD touchscreen to detect input accurately for responsive gameplay experience.</p>
 
-  <video controls width="500" src="/assets/videos/memoryGame.mp4">Your browser does not support the video tag.</video>
+<video controls width="500" src="/assets/videos/memoryGame.mp4">Your browser does not support the video tag.</video>
+
 </div>
 
 <div id="sdl" class="tab-content">
@@ -251,7 +252,7 @@
   </div>
 
   <p>A side-scrolling 2D game built using SDL 1.2. Implemented animations, physics, enemies, and collision detection manually from scratch.</p>
-  <p>🔗 <a href="https://github.com/yourusername/sdl2d-platformer" target="_blank">View on GitHub</a></p>
+  <p>🔗 <a href="https://github.com/oussamaassal/SDL1.2_2D_game" target="_blank">View on GitHub</a></p>
 
   <div class="feature-container">
     <div class="feature-description">
@@ -343,7 +344,6 @@
     
   </div>
 
-    
   <div class="feature-container">
     <div class="feature-description">
       <h4>🔹 Whack-a-Mole Minigame</h4>
@@ -363,7 +363,7 @@
                           //printf("(niveau=%d x=%d y=%d)",m->niveau*m->status,m->pos_img.x,m->pos_img.y);
                           read_monkey(m);
                           SDL_BlitSurface(e.img1,&m->pos_img,screen,&m->pos_img);
-                          SDL_BlitSurface(m->img,&m->pos_sprite,screen,&m->pos_img);    
+                          SDL_BlitSurface(m->img,&m->pos_sprite,screen,&m->pos_img);
                           SDL_UpdateRect(screen,m->pos_img.x,m->pos_img.y,m->pos_sprite.w,m->pos_sprite.h);
 
                           if(m->niveau%6==0 && m->status==1)
@@ -376,10 +376,12 @@
                                   SDL_Flip(screen);
                                   m->status=0;
                                   m->enig_lvl=0;
-                              } 
-                      }    
+                              }
+                      }
       }
-  </code></pre>
+
+</code></pre>
+
   </div>
     <div class="feature-preview">
       <img src="/assets/images/Whack-a-monkey.gif" alt="Whack-a-Mole Minigame Preview" />
@@ -433,8 +435,6 @@
     </div>
   </div>
 </div>
-
-
 
 <script>
   function showTab(tabId) {
